@@ -1,0 +1,25 @@
+{
+  "name": "pisaniya",
+  "version": "1.0.0",
+  "description": "Bible app of my dream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathetes/pisaniya.git"
+  },
+  "keywords": [
+    "bible",
+    "god's",
+    "word",
+    "scripture"
+  ],
+  "author": "Roman Ayapergenov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathetes/pisaniya/issues"
+  },
+  "homepage": "https://github.com/mathetes/pisaniya#readme"
+}
