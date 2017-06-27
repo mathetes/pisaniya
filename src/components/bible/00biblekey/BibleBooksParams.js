@@ -1,6 +1,6 @@
-{bookName:"Бытие",
+const data = {
+bookName:"Бытие",
 bookKeyVerse:"1,1",
-
 bookSubject:"Происхождение",
 bookKeyWord:"в начале",
 bookMainTheme:"Начало всего",
