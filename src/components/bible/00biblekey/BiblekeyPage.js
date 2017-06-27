@@ -1,11 +1,6 @@
 import React from 'react';
-import Griddle, { plugins, RowDefinition, ColumnDefinition, } from 'griddle-react';
-
-var data = [
-    { one: 'one', two: 'two', three: 'three' },
-    { one: 'uno', two: 'dos', three: 'tres' },
-    { one: 'ichi', two: 'ni', three: 'san' }
-];
+import Griddle, { plugins, RowDefinition, ColumnDefinition } from 'griddle-react';
+import data from './BibleBooksParams.js';
 
 const styleConfig = {
   icons: {
@@ -47,7 +42,7 @@ class BiblekeyPage extends React.Component {
         return (
             <div>
                 <h1>Ключевые параметры книг Библии</h1>
-                Griddle data={data} plugins={[plugins.LocalPlugin]} styleConfig={styleConfig} pageProperties={{currentPage: 1,
+                <Griddle data={data} plugins={[plugins.LocalPlugin]} styleConfig={styleConfig} pageProperties={{currentPage: 1,
           	pageSize: 66,
           	recordCount: 100}}
           events={{onFilter: (filterText) => { },
@@ -57,10 +52,20 @@ class BiblekeyPage extends React.Component {
           onGetPage: (pageNumber) => {},
   }}>
     <RowDefinition>
-		      <ColumnDefinition id="Отдел" title="Отдел" />
-		      <ColumnDefinition id="ФИО" title="ФИО" />
-		      <ColumnDefinition id="Должность" title="Должность" />
-		      <ColumnDefinition id="№ Телефона" title="№ Телефона" />
+      <ColumnDefinition id="Название" title="Название" />
+      <ColumnDefinition id="Кл.стих" title="Кл.стих" />
+      <ColumnDefinition id="Предмет" title="Предмет" />
+      <ColumnDefinition id="Кл.слово" title="Кл.слово" />
+      <ColumnDefinition id="Тема" title="Тема" />
+      <ColumnDefinition id="Дата написания" title="Дата написания" />
+      <ColumnDefinition id="Автор" title="Автор" />
+      <ColumnDefinition id="Получатели" title="Получатели" />
+      <ColumnDefinition id="Место написания" title="Место написания" />
+      <ColumnDefinition id="Глав" title="Глав" />
+      <ColumnDefinition id="Стихов" title="Стихов" />
+      <ColumnDefinition id="Слов" title="Слов" />
+      <ColumnDefinition id="Завет" title="Завет" />
+      <ColumnDefinition id="Жанр" title="Жанр" />
 			</RowDefinition>
           </Griddle>
             </div>
