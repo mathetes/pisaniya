@@ -52,20 +52,21 @@ class BiblekeyPage extends React.Component {
           onGetPage: (pageNumber) => {},
   }}>
     <RowDefinition>
-      <ColumnDefinition id="Название" title="Название" />
-      <ColumnDefinition id="Кл.стих" title="Кл.стих" />
-      <ColumnDefinition id="Предмет" title="Предмет" />
-      <ColumnDefinition id="Кл.слово" title="Кл.слово" />
-      <ColumnDefinition id="Тема" title="Тема" />
-      <ColumnDefinition id="Дата написания" title="Дата написания" />
-      <ColumnDefinition id="Автор" title="Автор" />
-      <ColumnDefinition id="Получатели" title="Получатели" />
-      <ColumnDefinition id="Место написания" title="Место написания" />
-      <ColumnDefinition id="Глав" title="Глав" />
-      <ColumnDefinition id="Стихов" title="Стихов" />
-      <ColumnDefinition id="Слов" title="Слов" />
-      <ColumnDefinition id="Завет" title="Завет" />
-      <ColumnDefinition id="Жанр" title="Жанр" />
+        <ColumnDefinition id="id" title="Номер" />
+        <ColumnDefinition id="bookName" title="Название" />
+        <ColumnDefinition id="bookKeyVerse" title="Кл.стих" />
+        <ColumnDefinition id="bookSubject" title="Предмет" />
+        <ColumnDefinition id="bookKeyWord" title="Кл.слово" />
+        <ColumnDefinition id="bookMainTheme" title="Тема" />
+        <ColumnDefinition id="BookDateWriting" title="Дата написания" />
+        <ColumnDefinition id="bookAuthor" title="Автор" />
+        <ColumnDefinition id="bookRecipient" title="Получатели" />
+        <ColumnDefinition id="bookPlaceWriting" title="Место написания" />
+        <ColumnDefinition id="bookChapters" title="Глав" />
+        <ColumnDefinition id="bookVerses" title="Стихов" />
+        <ColumnDefinition id="bookAllWords" title="Слов" />
+        <ColumnDefinition id="bookCovenant" title="Завет" />
+        <ColumnDefinition id="bookGanre" title="Жанр" />
 			</RowDefinition>
           </Griddle>
             </div>
