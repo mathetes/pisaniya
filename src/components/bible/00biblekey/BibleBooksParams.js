@@ -101,7 +101,7 @@
          bookKeyVerse:"21;24-25",
          bookSubject:"Неверность",
          bookKeyWord:"Израиля",
-         bookMainTheme:"Неверность народа Своегму Богу",
+         bookMainTheme:"Неверность народа Своему Богу",
          BookDateWriting:" c. 1086 вс-1004 вс",
          bookAuthor:"Неизвестен",
          bookRecipient:"Израиль",

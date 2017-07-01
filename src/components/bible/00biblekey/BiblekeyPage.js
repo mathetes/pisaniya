@@ -48,15 +48,15 @@ class BiblekeyPage extends React.Component {
                     <ColumnDefinition id="bookSubject" title="Предмет" order={4} />
                     <ColumnDefinition id="bookKeyWord" title="Кл.слово" order={5} />
                     <ColumnDefinition id="bookMainTheme" title="Тема" order={6} />
-                    <ColumnDefinition id="BookDateWriting" title="Дата написания" />
-                    <ColumnDefinition id="bookAuthor" title="Автор" />
-                    <ColumnDefinition id="bookRecipient" title="Получатели" />
-                    <ColumnDefinition id="bookPlaceWriting" title="Место написания" />
-                    <ColumnDefinition id="bookChapters" title="Глав" />
-                    <ColumnDefinition id="bookVerses" title="Стихов" />
-                    <ColumnDefinition id="bookAllWords" title="Слов" />
-                    <ColumnDefinition id="bookCovenant" title="Завет" />
-                    <ColumnDefinition id="bookGanre" title="Жанр" />
+                    <ColumnDefinition id="BookDateWriting" title="Дата написания" visible={false} />
+                    <ColumnDefinition id="bookAuthor" title="Автор" visible={false} />
+                    <ColumnDefinition id="bookRecipient" title="Получатели" visible={false} />
+                    <ColumnDefinition id="bookPlaceWriting" title="Место написания" visible={false} />
+                    <ColumnDefinition id="bookChapters" title="Глав" visible={false} />
+                    <ColumnDefinition id="bookVerses" title="Стихов" visible={false} />
+                    <ColumnDefinition id="bookAllWords" title="Слов" visible={false} />
+                    <ColumnDefinition id="bookCovenant" title="Завет" visible={false} />
+                    <ColumnDefinition id="bookGanre" title="Жанр" visible={false} />
                 </RowDefinition>
               </Griddle>
             </div>
