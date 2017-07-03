@@ -31,6 +31,7 @@ class BiblekeyPage extends React.Component {
     render() {
         return (
             <div>
+              <div className="col-lg-9">
                 <h1>Ключевые параметры книг Библии</h1>
                 <Griddle data={data} plugins={[plugins.LocalPlugin]} styleConfig={styleConfig} pageProperties={{currentPage: 1,
                         pageSize: 66,
@@ -45,8 +46,8 @@ class BiblekeyPage extends React.Component {
                     <ColumnDefinition id="id" title="Номер" order={1} />
                     <ColumnDefinition id="bookName" title="Название" order={2} />
                     <ColumnDefinition id="bookKeyVerse" title="Кл.стих" order={3} />
-                    <ColumnDefinition id="bookSubject" title="Предмет" order={4} />
-                    <ColumnDefinition id="bookKeyWord" title="Кл.слово" order={5} />
+                    <ColumnDefinition id="bookSubject" title="Предмет" order={4} visible={false} />
+                    <ColumnDefinition id="bookKeyWord" title="Кл.слово" order={5} visible={false} />
                     <ColumnDefinition id="bookMainTheme" title="Тема" order={6} />
                     <ColumnDefinition id="BookDateWriting" title="Дата написания" visible={false} />
                     <ColumnDefinition id="bookAuthor" title="Автор" visible={false} />
@@ -59,6 +60,11 @@ class BiblekeyPage extends React.Component {
                     <ColumnDefinition id="bookGanre" title="Жанр" visible={false} />
                 </RowDefinition>
               </Griddle>
+            </div>
+            <div className="col-lg-3 sidebar">
+                <h2>Сайдбар</h2>
+
+            </div>
             </div>
         );
     }
